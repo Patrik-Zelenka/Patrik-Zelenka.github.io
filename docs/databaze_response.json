@@ -1,0 +1,29 @@
+[
+  {
+    "id": 45669,
+    "type": "RAM",
+    "image": "images/ram.jpg",
+    "name": "RAM 16GB DDR4",
+    "description": "16GB DDR4 RAM, 3200MHz, CL16, 1.35V, XMP 2.0",
+    "longDescription": "Amazing fast RAM for your PC. 16GB DDR4 RAM, 3200MHz, CL16, 1.35V, XMP 2.0 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda aut consectetur corporis culpa earum eos explicabo illo impedit itaque iusto maiores minus necessitatibus nobis odio officia pariatur possimus praesentium quod quos reiciendis repellendus sapiente sequi similique suscipit, totam veniam voluptas? Cum dignissimos doloremque doloribus libero, nam non quae reprehenderit!",
+    "tags": [
+      "RAM",
+      "DDR4",
+      "16GB"
+    ],
+    "price": "1500"
+  },
+  {
+    "id": 992323,
+    "type": "CPU",
+    "image": "images/cpu.jpg",
+    "name": "Intel Core i7-11700K",
+    "description": "Intel Core i7-11700K, 8-core, 16-thread, 3.6GHz (5.0GHz Turbo), 16MB cache, LGA1200",
+    "tags": [
+      "CPU",
+      "Intel",
+      "i7"
+    ],
+    "price": "8000"
+  }
+]

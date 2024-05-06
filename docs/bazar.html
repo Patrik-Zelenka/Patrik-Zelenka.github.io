@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width"/>
     <title>Bazar</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="bazar.css">
+    <script src="bazar.js"></script>
 </head>
 <body>
 <header>
@@ -21,57 +22,8 @@
 
 <main>
     <h2>Aktualne dostupne polozky</h2>
-<!--    create a list of 20 auction items of computer components create html structure thumbnail, title, description, tags, price -->
-    <div class="auction-item">
-        <img src="images/ram.jpg" alt="RAM">
-        <h3>RAM 16GB DDR4</h3>
-        <p>16GB DDR4 RAM, 3200MHz, CL16, 1.35V, XMP 2.0</p>
-        <p>Tags: RAM, DDR4, 16GB</p>
-        <p>Price: 1500 CZK</p>
-    </div>
-    <div class="auction-item">
-        <img src="images/cpu.jpg" alt="CPU">
-        <h3>Intel Core i7-11700K</h3>
-        <p>Intel Core i7-11700K, 8-core, 16-thread, 3.6GHz (5.0GHz Turbo), 16MB cache, LGA1200</p>
-        <p>Tags: CPU, Intel, i7</p>
-        <p>Price: 8000 CZK</p>
-    </div>
-    <div class="auction-item">
-        <img src="images/gpu.jpg" alt="GPU">
-        <h3>MSI GeForce RTX 3060 Ti GAMING X TRIO</h3>
-        <p>MSI GeForce RTX 3060 Ti GAMING X TRIO, 8GB GDDR6, 256-bit, HDMI, 3x DP</p>
-        <p>Tags: GPU, MSI, RTX 3060 Ti</p>
-        <p>Price: 15000 CZK</p>
-    </div>
-    <div class="auction-item">
-        <img src="images/motherboard.jpg" alt="Motherboard">
-        <h3>ASUS ROG STRIX Z590-E GAMING WIFI</h3>
-        <p>ASUS ROG STRIX Z590-E GAMING WIFI, Intel Z590, ATX, 4x DDR4, 3x PCIe x16, 6x SATA III, 3x M.2, USB-C, WiFi 6, BT 5.1</p>
-        <p>Tags: Motherboard, ASUS, Z590</p>
-        <p>Price: 6000 CZK</p>
-    </div>
-    <div class="auction-item">
-        <img src="images/psu.jpg" alt="PSU">
-        <h3>Corsair RM750x</h3>
-        <p>Corsair RM750x, 750W, 80 Plus Gold, Full Modular, 135mm, Zero RPM Fan Mode, 1x EPS, 4x PCIe, 8x SATA, 6x Molex</p>
-        <p>Tags: PSU, Corsair, RM750x</p>
-        <p>Price: 2000 CZK</p>
-    </div>
-    <div class="auction-item">
-        <img src="images/case.jpg" alt="Case">
-        <h3>Fractal Design Meshify C</h3>
-        <p>Fractal Design Meshify C, černá, ATX, sklo, 2x 140mm, 1x 120mm</p>
-        <p>Tags: Case, Fractal Design, Meshify C</p>
-        <p>Price: 1500 CZK</p>
-    </div>
-    <div class="auction-item">
-        <img src="images/cooler.jpg" alt="Cooler">
-        <h3>Noctua NH-D15 chromax.black</h3>
-        <p>Noctua NH-D15 chromax.black, 140mm, 2x 140mm, 1500 RPM, 24.6 dB, 82.5 CFM</p>
-        <p>Tags: Cooler, Noctua, NH-D15</p>
-        <p>Price: 2000 CZK</p>
-    </div>
-
+    <div id="loader"></div>
+    <div id="list"></div>
 </main>
 
 <footer>
